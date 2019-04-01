@@ -24,6 +24,10 @@
 
 ## 实现代码
 
+### 自己的代码
+
+#### java 代码
+
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -34,7 +38,7 @@ class Solution {
                 return new int[] {map.get(complement),i};
             }
             map.put(nums[i],i);
-            
+
         }
         throw new IllegalArgumentException("No two Sum solution");
     }
